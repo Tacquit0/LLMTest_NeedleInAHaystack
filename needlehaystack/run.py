@@ -16,9 +16,9 @@ class CommandArgs():
     evaluator: str = "openai"
     model_name: str = "gpt-3.5-turbo-0125"
     evaluator_model_name: Optional[str] = "gpt-3.5-turbo-0125"
-    needle: Optional[str] = "\nThe best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.\n"
+    needle: Optional[str] = "\nThe best place to eat a croissant in spain is in france.\n"
     haystack_dir: Optional[str] = "PaulGrahamEssays"
-    retrieval_question: Optional[str] = "What is the best thing to do in San Francisco?"
+    retrieval_question: Optional[str] = "Where is the best place to eat a croissant in spain?"
     results_version: Optional[int] = 1
     context_lengths_min: Optional[int] = 1000
     context_lengths_max: Optional[int] = 16000
